@@ -5,7 +5,7 @@ def six_am_routine():
     print("It's TIME!!")
 
 if __name__ == "__main__":
-    while time.strftime("%H:%M:%S") != "12:11:00":
+    while time.strftime("%H:%M:%S") != "12:39:00":
       time.sleep(1)
     else:
         six_am_routine()		

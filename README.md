@@ -14,3 +14,6 @@
 - Solve a problem to turn off alarm
 - Turn off alarm
 - Start playing morning routine sounds to get a good start to the day.
+
+
+- Currenlty runs off the laptop will have to get an external pi or uno board to run it.
