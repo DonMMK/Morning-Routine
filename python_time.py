@@ -3,6 +3,7 @@ import webbrowser
 from tkinter import *
 import datetime
 from threading import *
+import gui_alarm as g
 
 def six_am_routine():
     print(time.strftime("%H:%M:%S"))
@@ -25,12 +26,12 @@ def nighty_night():
     # gui telling you to stop doing work wind down
     
     # Timer to close other applications
-    print("turn other devices off\n turn on the alarm\nturn off the lights\ntime to sleep\n")
+    print("turn other devices off\nturn on the alarm\nturn off the lights\ntime to sleep\n")
     # Add Delay
     webbrowser.open('https://www.youtube.com/watch?v=wM5CCu2NH2E&list=PL_6yYTbdnwflAZuIhuM_nIgJPXAePYuth', new=())
       
 if __name__ == "__main__":
-    while time.strftime("%H:%M:%S") != "18:36:00" or "22:00:00":
+    while time.strftime("%H:%M:%S") != "06:00:00" or "22:00:00":
       time.sleep(1)
-      if time.strftime("%H:%M:%S") == "18:36:00": six_am_routine()		
-      if time.strftime("%H:%M:%S") == "22:00:00": nighty_night()
+      if time.strftime("%H:%M:%S") == "06:00:00": six_am_routine()		
+      if time.strftime("%H:%M:%S") == "23:00:00": nighty_night()
