@@ -2,7 +2,7 @@
 from tkinter import *
 import datetime
 import time
-import winsound
+# import winsound
 from threading import *
 
 # Create Object
@@ -33,7 +33,7 @@ def alarm():
 		if current_time == set_alarm_time:
 			print("Time to Wake up")
 			# Playing sound
-			winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
+			#winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
 
 # Add Labels, Frame, Button, Optionmenus
 Label(root,text="Alarm Clock",font=("Helvetica 20 bold"),fg="red").pack(pady=10)
