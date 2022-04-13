@@ -9,8 +9,8 @@
 ### How it works + future plans
 - Python script currently running in background thorugh idle [Find alternative solution]
 - Initial alarm goes off
-- Plays waking up music - jocko get out of bed
+- Plays waking up music - jocko get out of bed (online link instead of local????)
 - Click on gui 
 - Solve a problem to turn off alarm
 - Turn off alarm
-- Start olaying morning routine sounds to get a good start to the day.
+- Start playing morning routine sounds to get a good start to the day.
