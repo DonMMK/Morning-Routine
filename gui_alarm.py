@@ -4,6 +4,7 @@ import datetime
 import time
 # import winsound
 from threading import *
+import webbrowser
 
 # Create Object
 root = Tk()
