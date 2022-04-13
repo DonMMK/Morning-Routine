@@ -1,11 +1,12 @@
 # Morning-Routine
- The phone alarm isnt cutting it anymore.  
- The physical alarm wakes me up. But i just turn it off and go back to sleep.  
- I need something more...  
+ #### The phone alarm isnt cutting it anymore.  
+ #### The physical alarm wakes me up. But i just turn it off and go back to sleep.  
+ #### I need something more...  
 -
 ### Tech Info
-
---
+- Running a python script in the background.  
+- Use command python3 <file name>
+-
 ### How it works + future plans
 - Python script currently running in background thorugh idle [Find alternative solution]
 - Initial alarm goes off
