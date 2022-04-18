@@ -3,7 +3,8 @@ import webbrowser
 from tkinter import *
 import datetime
 from threading import *
-import gui_alarm as g
+# from selenium import webdriver
+# from selenium.webdriver.support.ui import Select
 
 def six_am_routine():
     print(time.strftime("%H:%M:%S"))
@@ -19,7 +20,13 @@ def six_am_routine():
     
     # Add delay
     webbrowser.open('https://www.youtube.com/watch?v=9vJRopau0g0&list=PL_6yYTbdnwfmdOf5SSzzljlhZIahw5NUX', new=())
-
+    
+    
+    
+    # Close down the youtube video
+    # Selenium used to close the video
+    #webbrowser.close('https://www.youtube.com/watch?v=9vJRopau0g0&list=PL_6yYTbdnwfmdOf5SSzzljlhZIahw5NUX', new=())
+    
 
 def nighty_night():
     print(time.strftime("%H:%M:%S"))
@@ -27,8 +34,16 @@ def nighty_night():
     
     # Timer to close other applications
     print("turn other devices off\nturn on the alarm\nturn off the lights\ntime to sleep\n")
-    # Add Delay
+
+    
+    # Play the video for night time
     webbrowser.open('https://www.youtube.com/watch?v=wM5CCu2NH2E&list=PL_6yYTbdnwflAZuIhuM_nIgJPXAePYuth', new=())
+    
+    # Wait for 2 hrs
+    time.sleep(6000) # Add Delay
+    
+    # Close the browser
+    
       
 if __name__ == "__main__":
     while time.strftime("%H:%M:%S") != "06:00:00" or "22:00:00":
