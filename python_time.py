@@ -6,6 +6,8 @@ from threading import *
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 
+
+
 def six_am_routine():
     print(time.strftime("%H:%M:%S"))
     print("It's TIME!!\nGET AFTER IT!!\n")
@@ -13,7 +15,7 @@ def six_am_routine():
     webbrowser.open('https://www.youtube.com/watch?v=JDJz9JA9qxc&list=PL_6yYTbdnwfmdOf5SSzzljlhZIahw5NUX', new=())
 
     
-def morning_gui():
+def night_gui():
     pass
     # Morning GUI opens up with the sound of jocko alarm -> Type in I AM AWAKE
     #root = Tk()
@@ -23,8 +25,11 @@ def morning_gui():
     #frame = Frame(root)
     #frame.pack()
     
-def night_gui():
-    pass
+def morning_gui():
+    ws = Tk()
+    ws.title('Morning Routine')
+    ws.geometry('400x200')
+    ws.config(bg='#000000')
 
 def nighty_night():
     print(time.strftime("%H:%M:%S"))
