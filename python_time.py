@@ -1,6 +1,5 @@
 import time
 import webbrowser
-from tkinter import *
 import datetime
 from threading import *
 from selenium import webdriver
@@ -12,7 +11,7 @@ def six_am_routine():
     print(time.strftime("%H:%M:%S"))
     print("It's TIME!!\nGET AFTER IT!!\n")
     # URL of website
-    webbrowser.open('https://www.youtube.com/watch?v=JDJz9JA9qxc&list=PL_6yYTbdnwfmdOf5SSzzljlhZIahw5NUX', new=())
+    webbrowser.open('https://www.youtube.com/watch?v=JDJz9JA9qxc&list=PL_6yYTbdnwfmdOf5SSzzljlhZIahw5NUX', 0)
 
     
 def night_gui():
@@ -54,7 +53,7 @@ def nighty_night():
     driver.close()
       
 if __name__ == "__main__":
-    while time.strftime("%H:%M:%S") != "06:00:00" or "22:00:00":
+    while time.strftime("%H:%M:%S") != "09:01:30" or "22:00:00":
       time.sleep(1)
-      if time.strftime("%H:%M:%S") == "06:00:00": six_am_routine()		
+      if time.strftime("%H:%M:%S") == "09:01:30": six_am_routine()		
       if time.strftime("%H:%M:%S") == "23:00:00": nighty_night()
