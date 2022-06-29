@@ -1,11 +1,8 @@
-# Morning-Routine
- #### The phone alarm isnt cutting it anymore.  
- #### The physical alarm wakes me up. But i just turn it off and go back to sleep.  
- #### I need something more...  
+# Morning-Routine  
 
 ### Tech Info
 - Running a python script in the background.  
-- Use command python3 <file name>
+- Use command python3 <file name> using the venv or config vscode to run it
 -
 ### How it works + future plans
 - Python script currently running in background thorugh idle [Find alternative solution]
